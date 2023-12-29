@@ -1,0 +1,6 @@
+:host {
+    --weather-font: 'Open Sans', sans-serif;
+    --weather-text-color: #333;
+    --weather-bg-color: #fff;
+    --weather-header-color: #007bff;
+}

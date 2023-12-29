@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Карточки с контентом</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <card-component>
+        <div slot="header">
+            <h2>Карточка 1</h2>
+        </div>
+        <div slot="content">
+            <p>яблоко, яблоко, яблоко, яблоко, яблоко, яблоко, яблоко, яблоко, яблоко</p>
+        </div>
+    </card-component>
+    <card-component>
+        <div slot="header">
+            <h2>Карточка 2</h2>
+        </div>
+        <div slot="content" class="content">
+            <p>Внимание, важно:</p>
+            <img src="/images/apple.jpg" alt="">
+        </div>
+    </card-component>
+    <script src="script.js"></script>
+</body>
+</html>
