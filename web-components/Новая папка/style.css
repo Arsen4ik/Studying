@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.create-user {
+    height: 300px;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    /* justify-content: center;
+    justify-items: end;
+    align-content: space-around; */
+    /* justify-content: center; */
+    padding: 20px 25%;
+    grid-gap: 20px;
+}
+
+.create-user>input {
+    height: 40px;
+    font-size: large;
+    padding-left: 10px;
+    /* width: 300px; */
+    /* width: 50%; */
+    /* align-items: center; */
+    /* align-content: center; */
+    align-self: center;
+}
+
+.create-user>label {
+    /* background-color: red; */
+    /* grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    align-items: start;
+    align-content: start;
+    justify-content: start; */
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.create-user>label>img {
+    height: 50px;
+}
+.img-span {
+    /* position: relative;
+    bottom: 10px; */
+}
+
+
+.file::-webkit-file-upload-button {
+    border-radius: 9999px;
+    border: 3px solid grey;
+    background-color: white;
+    height: 40px;
+    width: 150px;
+}
+
+.create-user button {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 9999px;
+    border: 3px solid grey;
+    background-color: white;
+    margin: 0 auto;
+    height: 60px;
+    width: 300px;
+}
+
+
+
+
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+.card {
+    height: 100px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 60% 40% ;
+    padding: 5px;
+    /* background-color: whitesmoke; */
+    border: solid 13px whitesmoke;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    /* align-items: center;
+    align-content: center;
+    justify-self: center;
+    justify-items: center; */
+    /* align-self: center; */
+}
+.card>h1:nth-child(2) {
+    height: 40px;
+    /* background-color: aquamarine; */
+}
+
+.card img {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.card h2 {
+    font-size: small;
+}
+
+.card .round {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
