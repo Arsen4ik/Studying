@@ -1,0 +1,56 @@
+.pr-item {
+    min-height: 220px;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+    // display: flex;
+    // flex-direction: column;
+    // gap: 10px;
+    // justify-content: center;
+    // align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px 10px gray;
+
+    .star {
+        width: 10px;
+        height: 10px;
+        border: none;
+    }
+    .notGold {
+        filter: invert(.5);
+    }
+    img {
+        width: 200px;
+        height: 150px;
+        border: 5px solid lightcyan;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+    h1 {
+        color: blueviolet;
+        font-size: large;
+        letter-spacing: 1px;
+        align-self: center;
+        // justify-content: center;
+        text-align: center;
+    }
+    p {
+        text-align: center;
+
+        span {
+            text-decoration: underline;
+        }
+    }
+    div {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        justify-content: center;
+    }
+}
+
