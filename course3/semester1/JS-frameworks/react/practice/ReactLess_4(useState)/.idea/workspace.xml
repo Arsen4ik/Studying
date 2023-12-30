@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4e52facc-9526-4e9f-a872-f5448e6d74f5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ReactLess_5(Todo List)/todo-list/src/components/AddTodo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReactLess_5(Todo List)/todo-list/src/components/TodoItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReactLess_5(Todo List)/todo-list/src/components/TodoList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReactLess_5(Todo List)/todo-list/src/style.global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactLess_4(hooks)/myapp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactLess_4(hooks)/myapp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactLess_4(hooks)/myapp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactLess_4(hooks)/myapp/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactLess_4(hooks)/myapp/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactLess_4(hooks)/myapp/src/components/Employees.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactLess_4(hooks)/myapp/src/components/Number.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactLess_4(hooks)/myapp/src/components/Theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactLess_4(hooks)/myapp/src/index.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2VZYhkLQuSzekCWwXoeYy64lkvW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.16.1&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.16.1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/JetBrains/WebStorm 2023.1/my-scripts/deleteNodeModules/deleteNodeModules.bat&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalTools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Учеба\third-course\firsrt-semestr\js-framework\react\ReactLess_4(hooks)\myapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Учеба\third-course\firsrt-semestr\js-framework\react\ReactLess_3\myapp\src\components\Content" />
+      <recent name="D:\Учеба\third-course\firsrt-semestr\js-framework\react\ReactLess_3\myapp\src\components\Block" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Batch.deleteNodeModules">
+    <configuration name="deleteNodeModules" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="ReactLess_3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="./myapp" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="deleteNodeModules.bat" />
+      <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start-webstorm" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="ReactLess_3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="./myapp" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="start-webstorm.bat" />
+      <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Batch.deleteNodeModules" />
+        <item itemvalue="Batch.start-webstorm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e52facc-9526-4e9f-a872-f5448e6d74f5" name="Changes" comment="" />
+      <created>1695045192208</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695045192208</updated>
+      <workItem from="1695045193894" duration="2983000" />
+      <workItem from="1695049624859" duration="636000" />
+      <workItem from="1695054174305" duration="1584000" />
+      <workItem from="1695055812250" duration="638000" />
+      <workItem from="1695057254088" duration="5989000" />
+      <workItem from="1695111038411" duration="2000" />
+      <workItem from="1695137554470" duration="721000" />
+      <workItem from="1695138298421" duration="3324000" />
+      <workItem from="1695142642615" duration="1270000" />
+      <workItem from="1695200403860" duration="581000" />
+      <workItem from="1695201010525" duration="2021000" />
+      <workItem from="1695203068848" duration="156000" />
+      <workItem from="1695203257370" duration="337000" />
+      <workItem from="1695203612609" duration="1630000" />
+      <workItem from="1695205283369" duration="663000" />
+      <workItem from="1695206269389" duration="58000" />
+      <workItem from="1695650404880" duration="20000" />
+      <workItem from="1695663422114" duration="328000" />
+      <workItem from="1695663771393" duration="23000" />
+      <workItem from="1695663804625" duration="30000" />
+      <workItem from="1695663848326" duration="624000" />
+      <workItem from="1695664491803" duration="890000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
