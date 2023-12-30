@@ -1,0 +1,298 @@
+* {
+  font-family: "Mooli", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: slateblue;
+  color: whitesmoke;
+  padding-right: 40px;
+}
+header nav {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 600px) {
+  .logo {
+    width: 100px;
+    margin: auto 20px;
+  }
+}
+
+.logo-img {
+  height: 30px;
+  background-position: center;
+  filter: invert(1);
+}
+.logo-img figcaption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-column-gap: 60px;
+  justify-content: center;
+  padding: 10px 10%;
+}
+@media screen and (max-width: 1000px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+.banner {
+  height: calc(100vh - 140px);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1.5fr repeat(2, 2fr);
+  grid-gap: 30px;
+}
+.banner div {
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+  transition: all ease-in-out 0.25s;
+}
+.banner div p {
+  text-align: center;
+}
+.banner div:hover {
+  filter: brightness(1.1);
+}
+@media screen and (max-width: 600px) {
+  .banner div {
+    min-height: 200px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .banner {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.banner-part1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: borderAnimation 0.5s infinite;
+}
+.banner-part1 h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(42, 42, 42);
+}
+@media screen and (max-width: 1000px) {
+  .banner-part1 h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .banner-part1 {
+    border-left: none;
+    border-top: 3px solid crimson;
+    border-bottom: 3px solid crimson;
+  }
+}
+
+.banner-part2 {
+  background-image: url("./assets/mike-meeks-zk-fclJdGas-unsplash.jpg");
+  text-shadow: 1px -1px whitesmoke;
+}
+.banner-part2:hover {
+  transform: rotate(2.5deg);
+}
+
+.banner-part3 {
+  background-image: url("./assets/nathan-dumlao-6VhPY27jdps-unsplash.jpg");
+  color: whitesmoke;
+  text-shadow: 1px -1px rgb(42, 42, 42);
+}
+.banner-part3:hover {
+  transform: rotate(2.5deg);
+}
+
+.banner-part4 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  border: 5px dotted mediumslateblue;
+}
+
+.banner-part4 p {
+  color: rgb(42, 42, 42);
+  font-size: 1.3rem;
+  text-align: end;
+}
+@media screen and (max-width: 1000px) {
+  .banner-part4 p {
+    font-size: 1rem;
+  }
+}
+
+.banner-part5 {
+  background-image: url("./assets/david-holifield-kPxsqUGneXQ-unsplash.jpg");
+  color: whitesmoke;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-shadow: 2px -2px rgb(104, 54, 54);
+}
+.banner-part5:hover {
+  transform: rotate(2.5deg);
+}
+
+.banner-part6 {
+  background-image: url("./assets/irham-setyaki-EmH4UrOeQeI-unsplash.jpg");
+  grid-column-start: 3;
+  grid-column-end: 5;
+  text-shadow: 1px -1px whitesmoke;
+}
+.banner-part6:hover {
+  transform: rotate(2.5deg);
+}
+
+aside {
+  background-image: linear-gradient(to right, blueviolet, hotpink, gold);
+  border: 10px solid blueviolet;
+  border-top: 0;
+  border-bottom: 0;
+  border-right-color: gold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 0;
+}
+@media screen and (max-width: 1000px) {
+  aside {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  aside :nth-child(even) {
+    justify-self: start;
+  }
+  aside :nth-child(odd) {
+    justify-self: end;
+  }
+}
+@media screen and (max-width: 600px) {
+  aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+video {
+  height: 100px;
+  width: 200px;
+  background-size: contain;
+  animation: videoAnimation 2s infinite;
+}
+
+.video2 {
+  transition-delay: 0.5s;
+}
+
+.video3 {
+  transition-delay: 1s;
+}
+
+.video4 {
+  transition-delay: 1.5s;
+}
+
+footer {
+  height: 50px;
+  background-color: slateblue;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+footer p:first-child {
+  animation: 1s linear infinite rotate;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes borderAnimation {
+  0% {
+    border-left: 3px solid crimson;
+    border-top: 3px solid crimson;
+    border-right: none;
+    border-bottom: none;
+  }
+  25% {
+    border-top: 3px solid crimson;
+    border-right: 3px solid crimson;
+    border-left: none;
+    border-bottom: none;
+  }
+  50% {
+    border-right: 3px solid crimson;
+    border-bottom: 3px solid crimson;
+    border-left: none;
+    border-top: none;
+  }
+  75% {
+    border-bottom: 3px solid crimson;
+    border-left: 3px solid crimson;
+    border-right: none;
+    border-top: none;
+  }
+  100% {
+    border-left: 3px solid crimson;
+    border-top: 3px solid crimson;
+    border-bottom: none;
+    border-right: none;
+  }
+}
+@keyframes videoAnimation {
+  0% {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}/*# sourceMappingURL=style.css.map */
