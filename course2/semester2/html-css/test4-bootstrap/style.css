@@ -1,0 +1,121 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+    border: gainsboro;
+    border-left: 0;
+    border-right: 0;
+}
+.card-body {
+    text-align: center;
+    /* background-color: rgba(255, 255, 255, 0); */
+}
+.tab-pane {
+    height: calc(100vh - 42px);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    color: white;
+    background-position: center;
+}
+.tab-pane1 {
+    background-image: url(./images/Без\ названия\ \(2\).jpeg);
+
+}
+.shawa {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-p {
+    color: white;
+    font-size: 100px;
+}
+.main-p2 {
+    margin-left: -61px;
+    font-size: 100px;
+    color: rgb(0, 132, 255);
+}
+
+.card-group {
+    background-color: rgb(0, 132, 255);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.ing-card {
+    width: 50%;
+    border-radius: 20px;
+}
+.ing-card img {
+    background-size: cover;
+    border-radius: 20px;
+}
+.tab-content h3 {
+    margin-top: 30px;
+}
+
+.tab-pane3 {
+    height: calc(100% - 42px);
+}
+.ordering {
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(0, 132, 255);
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 30px 20px;
+}
+.tab-pane3 h1 {
+    margin-top: 50px;
+    color: rgb(0, 132, 255);
+    text-align: center;
+}
+
+
+@media screen and (min-width: 539px) and (max-width: 992px) {
+    .shawa p {
+        font-size: 60px;
+    }
+    .main-p2 {
+        margin-left: -36px;
+    }
+    .card-group h3, h5 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 538px) {
+    .shawa p {
+        font-size: xx-large;
+    }
+    .main-p2 {
+        margin-left: -21px;
+    }
+
+    .ing-card {
+        width: 80%;
+        border-radius: 3px;
+    }
+    .ing-card img {
+        border-radius: 3px;
+    }
+
+    .ordering {
+        width: 90%;
+    }
+    .card-group h3, h5 {
+        text-align: center;
+    }
+}

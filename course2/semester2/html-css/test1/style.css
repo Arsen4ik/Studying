@@ -1,0 +1,160 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+:root {
+    --wh-gr: rgb(241, 241, 241);
+    --gr: dimgray;
+    --green: rgba(62, 173, 122, 0.7);
+}
+.bc-wg {
+    background-color: var(--wh-gr);
+}
+.c-wg {
+    color: var(--wh-gr);
+}
+.c-g {
+    color: var(--gr);
+}
+.bc-green {
+    background-color: var(--green);
+}
+.forPaint {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.d-f {
+    display: flex;
+}
+.d-g {
+    display: grid;
+}
+.gtc-r2a {
+    grid-template-columns: repeat(2, auto);
+}
+.gtr-r2a {
+    grid-template-rows: repeat(2, auto);
+}
+.fd-r {
+    flex-direction: row;
+}
+.fd-c {
+    flex-direction: column;
+}
+.jc-sb {
+    justify-content: space-between;
+}
+.jc-c {
+    justify-content: center;
+}
+.ai-c {
+    align-items: center;
+}
+.ta-j {
+    text-align: justify;
+}
+.ta-c {
+    text-align: center;
+}
+.fs-xxl {
+    font-size: xx-large;
+}
+.fs-xl {
+    font-size: x-large;
+}
+.fs-l {
+    font-size: large;
+}
+.fw-b {
+    font-weight: bold;
+}
+.round {
+    background-color: var(--green);
+    border-radius: 50%;
+}
+.h-a {
+    height: auto;
+}
+.bs-bb {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    height: 80px;
+    padding: 0 100px;
+}
+.paint {
+    background-image: url(images/menu-burger-svgrepo-com.svg);
+    width: 50px;
+    height: 50px;
+}
+.logo {
+    font-family: 'Caveat', cursive;
+    font-family: 'Kelly Slab', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.forest {
+    height: 600px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=987274c67ed5df92fdb9b7553f16873a5ea8cd90-7593510-images-thumbs&n=13);
+    gap: 50px;
+}
+.round1 {
+    width: 200px;
+    height: 200px;
+}
+
+.forest-text {
+    letter-spacing: 10px;
+}
+.forest-text1 {
+    font-size: 50px;
+}
+.forest-text2 {
+    font-size: 100px;
+}
+.block3 {
+    min-height: 400px;
+    padding: 30px 25%;
+    gap: 30px;
+}
+.btn {
+    border-radius: 20px;
+    width: 250px;
+    border: 0;
+}
+.btn p {
+    letter-spacing: 5px;
+    color: var(--wh-gr);
+}
+.block4 {
+    padding: 30px 25%;
+    gap: 30px;
+}
+.fr1 {
+    height: 100px;
+    width: 400px;
+}
+.img {
+    height: 400px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=c82f0c8babeab769e091848485f5d96a49c64df1-8191391-images-thumbs&n=13);
+}
+.fr3 {
+    height: 100%;
+    width: 400px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    gap: 40px;
+    padding: 30px;
+}
+.round2 {
+    width: 150px;
+    height: 150px;
+}

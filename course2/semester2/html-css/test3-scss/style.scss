@@ -1,0 +1,160 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+%picture{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@mixin form-input($height){
+    height: $height;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid rgb(168, 168, 168);
+}
+@mixin card-animation($size) {
+    transition: all 0.25s ease-in-out;
+    &:hover {
+        transform: scale($size)
+    }
+}
+
+body {
+    margin: 0;
+}
+header {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header-input {
+    height: 30px;
+    width: 150px;
+    border: rgb(168, 168, 168) solid 1px;
+}
+.header-input-img {
+    @extend %picture;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 150px;
+}
+.header-img {
+    @extend %picture;
+    height: 50px;
+    width: 50px;
+}
+
+
+main {
+    background-image: url(./images/photo-1556388158-158ea5ccacbd.avif);
+    @extend %picture;
+    height: 640px;
+
+}
+.main-dark {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51, 51, 51, 0.5);
+    display: flex;
+    flex-direction: row;
+    // align-items: center;
+    padding: 20px 40px;
+    gap: 30px;
+    color: whitesmoke;
+    box-sizing: border-box;
+}
+.el1 {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 50%;
+}
+.el2 {
+    width: 50%;
+    padding-top: 10px;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+}
+.el2 p:first-child {
+    font-size: 40px;
+}
+.el2 p:nth-child(2) {
+    font-size: 20px;
+}
+.forma {
+    width: 300px;
+    background-color: rgb(70, 67, 255);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+.forma input:first-child {
+    @include form-input(30px)
+}
+.forma input:nth-child(2) {
+    @include form-input(30px)
+}
+.forma input:nth-child(3) {
+    @include form-input(70px)
+}
+.forma button {
+    width: 100px;
+    border: 0;
+    background-color: rgb(206, 218, 255);
+    border-radius: 5px;
+    height: 50px;
+}
+
+section {
+    padding: 20px 30px;
+}
+section>p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    gap: 30px;
+}
+.cards>div {
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 gray;
+    padding: 10px;
+    @include card-animation(1.03);
+    &:hover {
+    box-shadow: 0 0 5px 1px gray;
+    }
+}
+.cards>div>img {
+    @extend %picture;
+    height: 100px;
+    width: 100px;
+}
+.cards>div>p:nth-child(2) {
+    font-size: x-large;
+}
+.cards>div>p:nth-child(3) {
+    letter-spacing: 1px;
+    color: gray;
+}
