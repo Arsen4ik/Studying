@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>check-point-3</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="../../functions.js"></script> -->
+</head>
+<body>
+    <section class="adding">
+        <form action="" class="addCard" id="addCard">
+            <div class="bank">
+                <label for="input1">выберите банк</label>
+                <select name="bank" class="input1" required>
+                    <option value=""></option>
+                    <option value="Сбер">Сбер</option>
+                    <option value="Альфа банк">Альфа банк</option>
+                    <option value="ВТБ">ВТБ</option>
+                    <option value="Тинькофф">Тинькофф</option>
+                    <option value="МИР">МИР</option>
+                    <option value="Viza">Viza</option>
+                </select>
+            </div>
+                <div class="pay">
+                    <label for="input2">выберите платежную систему</label>
+                    <input type="text" class="input2" placeholder="что-нибудь" required>
+                </div>
+                <div class="num">
+                    <label for="input3">номер карты</label>
+                    <input type="text" class="input3" placeholder="16 цифр" required>
+                </div>
+                <div class="name">
+                    <label for="input4">владелец карты</label>
+                    <input type="text" class="input4" placeholder="Фамилия и имя владельца карты" required>
+                </div>
+                <div class="data">
+                    <label for="input5">дата окончания работы карты</label>
+                    <input type="month" class="input5" required>
+                </div>
+
+            <div class="btns">
+            <button type="submit" class="submit">создать</button>
+            <button type="reset" class="reset">отчистить</button>
+            </div>
+        </form>
+
+        <div class="newCard">
+            <div class="el1"></div>
+            <div class="el2"></div>
+            <div class="el3"></div>
+            <div class="el4"></div>
+            <div class="el5"></div>
+        </div>
+    </section>
+    <section class="cards"></section>
+    <script src="script.js"></script>
+</body>
+</html>

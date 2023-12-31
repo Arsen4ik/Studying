@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+section {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    box-sizing: border-box;
+}
+section div p{
+    text-align: start;
+    padding: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 4px 0;
+}
+.paint {
+    /* height: 20%; */
+    width: 100%;
+    height: 100%;
+    min-width: 180px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 7;
+    box-shadow: inset 0 0 50px 0 white;
+}
+.block {
+    min-width: 200px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+section .block>div:first-child p{
+    font-size: xx-large;
+    margin-left: 30px;
+}
+section .block>div:nth-child(3),:nth-child(4) p{
+    font-size: large;
+}
+section .block>div:last-child p{
+    text-align: end;
+    font-size: small;
+}

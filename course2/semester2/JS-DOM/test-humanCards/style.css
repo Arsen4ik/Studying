@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 30px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.card {
+    /* width: 100%; */
+    /* height: auto; */
+    padding: 20px;
+    box-shadow: 0 0 5px 0 rgb(75, 75, 75);
+    /* display: grid; */
+    gap: 10px;
+    align-content: stretch;
+    box-sizing: border-box;
+}
+h3, p {
+    margin: 0;
+
+}
+.card p {
+    align-self: flex-start;
+}
+.age {
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+/* .adres {
+    width: 100;
+
+} */
+
+.num1 {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start; */
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+    padding: 10px;
+    /* background-color: gold;
+    padding: 5px;
+    gap: 5px; */
+}
+.num1 div:first-child {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* background-color: hotpink; */
+    font-size: xx-large;
+}
+.num1>div:first-child {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.num1>div:nth-child(2),div:last-child {
+    /* background-color: green; */
+    font-size: x-large;
+    text-align: center;
+    /* height: 100px; */
+}
+.num1>div:nth-child(2) {
+    text-align: start;
+}
+.num1>div:last-child {
+    text-align: end;
+}
+/* // */
+.num2 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+}
+.num2 p {
+    font-size: medium;
+}
+.datas p {
+    text-align: end;
+}
+.adres p {
+    text-align: end;
+}
+.img {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-size: cover;
+    background-image: url(https://azan.kz/namaz-data/img/solat-man.jpg);
+}

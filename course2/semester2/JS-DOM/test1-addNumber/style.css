@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+hr {
+    background-color: dimgray;
+    height: 3px;
+    width: 90%;
+    border: 0;
+}
+button {
+    background-color: orange;
+    width: 250px;
+    height: 50px;
+    margin: 30px;
+    border: 5px;
+    border-radius: 1px;
+}
+button:hover {
+    color: whitesmoke;
+}
+button:active {
+    box-shadow: 0.5px 0.5px black,
+    -0.5px -0.5px black;
+}
+table {
+    width: 200px;
+}
+td {
+    border: solid 1px black;
+    border-radius: 10px;
+    text-align: center;
+}

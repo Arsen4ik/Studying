@@ -1,0 +1,58 @@
+/* #gate {
+    cursor: pointer;
+    margin-bottom: 100px;
+    width: 83px;
+    height: 46px;
+}
+#ball {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+} */
+/* main {
+    width: 497px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+.pointer {
+    width: 50px;
+    height: 50px;
+    background-image: url(./images/location-filled-svgrepo-com.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body>p {
+    font-size: xx-large;
+    text-align: center;
+    color: crimson;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    transition: all 0.5s ease-in-out;
+}
+section {
+    width: 502px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: calc(50% - 251px);
+    margin-right: calc(100% - 251px);
+    gap: 1px;
+}
+section>div {
+    background-color: crimson;
+    transition: all 0.35s ease-in-out;
+}
+section>div:first-child {
+    background-color: forestgreen;
+    height: 20px;
+}
+.el1 {
+    width: 5px;
+    height: 14px;
+}
+.el2 {
+    width: 70px;
+    height: 10px;
+}
