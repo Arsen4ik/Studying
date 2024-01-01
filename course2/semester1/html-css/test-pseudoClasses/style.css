@@ -1,0 +1,195 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(204, 204, 204);
+}
+
+
+header {
+    height: 150px;
+    margin: 0;
+    background-image: linear-gradient(rgb(143, 143, 143), rgb(255, 255, 255), rgb(204,204,204));
+    /* background-color: tomato; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    margin: 0;
+    width: 90%;
+    padding: 0;
+    /* background-color: violet; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+li {
+    width: calc(100% / 6);
+    min-width: 150px;
+    height: 100px;
+    list-style-type: none;
+    background-color: rgb(204, 204, 204);
+    /* border-right: 1px solid dimgray; */
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: dimgray;
+}
+p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+header li::after {
+    content: "";
+    display: block;
+    position: relative;
+    z-index: 1;
+    height: 70px;
+    border-right: 2px solid dimgray;
+    right: 0;
+}
+header li:first-child {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+header li:last-child {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+header li:last-child::after {
+    border-right: dotted 9px white;
+    margin-bottom: 40px;
+    margin-right: 5px;
+    height: 50px;
+}
+
+/* // */
+
+section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+    gap: 50px;
+}
+section>div:first-child {
+    background-color: rgb(204, 204, 204);
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+section>div:first-child div {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    min-width: 290px;
+    width: calc(33% - 5px);
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+section>div:first-child div h1::after {
+    content: "";
+    width: 90%;
+    height: 1px;
+    background-color: dimgray;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+section>div:first-child div p:first-child{
+    font-weight: bold;
+}
+section>div:first-child div p:last-child {
+    font-weight: normal;
+}
+
+section>div:first-child div:nth-child(1) h1 {
+    color: tomato;
+}
+section>div:first-child div:nth-child(2) h1 {
+    color: mediumblue
+}
+section>div:first-child div:nth-child(3) h1 {
+    color: forestgreen;
+}
+
+
+section>div:last-child {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10%;
+    padding: 0 5%;
+
+}
+
+section>div:last-child div:first-child {
+    width: 100%;
+}
+
+section>div:last-child div:nth-child(2) {
+    width: 45%;
+}
+section>div:last-child div:nth-child(3) {
+    width: 45%;
+}
+
+
+
+section>div:last-child h1{
+    width: 100%;
+}
+section>div:last-child h3{
+    width: 100%;
+}
+section>div:last-child h6{
+    width: 100%;
+}
+section>div:last-child div h6:after {
+    content: " типо читать далее";
+    color: blue;
+    text-decoration: underline;
+}
+
+footer {
+    width: 90%;
+    border: 1px solid dimgray;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+footer p::after {
+    content: "_от Арсена";
+    color: blue;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 540px) {
+    section div {
+        gap: 5px;
+    }
+}

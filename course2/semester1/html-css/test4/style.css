@@ -1,0 +1,143 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* background-color: tomato; */
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.div0 {
+    /* background-color: darkmagenta; */
+    margin: 20px;
+    width: 20%;
+    max-width: 200px;
+    min-width: 160px;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.div1 {
+    border-radius: 5px;
+    /* padding: 30px; */
+    margin: 2px;
+    background-color: yellow;
+    width: 80px;
+    height: 80px;
+    background-image: url(https://smash-cs.ru/uploads/posts/2017-10/thumbs/4333.png);
+    /* background-image: url(https://mf.b37mrtl.ru/russian/images/6/5/f/65fd2d82abc60cb4a4728f516b08ffdeefd2b5d6_article.jpg); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.div01 {
+    background-color: violet;
+}
+.div02 {
+    background-color: blue;
+}
+.div03 {
+    background-color: rgb(75, 0, 0);
+}
+.div04 {
+    background-color: forestgreen;
+}
+.div05 {
+    background-color: yellow;
+    width: 40px;
+    height: 40px;
+}
+.div1-05-bigOne {
+    width: 80px;
+    height: 40px;
+}
+
+.div1-bigOne {
+    width: 164px;
+}
+.div1-bigTwo {
+    width: 164px;
+    height: 164px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    /* body {
+        background-color: rgb(0, 225, 255);
+    } */
+    section {
+        display: flex;
+        justify-content: center;
+    }
+    .div0 {
+        /* background-color: cadetblue; */
+        width: 40%;
+        max-width: 450px;
+    }
+    .div1 {
+        width: 120px;
+        height: 120px;
+    }
+    .div1-05-bigOne {
+        width: 160px;
+        height: 80px;
+    }
+    .div1-bigOne {
+        width: 328px;
+    }
+    .div1-bigTwo {
+        width: 328px;
+        height: 328px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    /* body {
+         background-color: rgb(255, 0, 140); 
+    } */
+    section {
+        display: flex;
+        justify-content: space-around ;
+    }
+    .div0 {
+        /* background-color: cadetblue; */
+        width: auto;
+        min-width: 40%;
+        height: auto;
+    }
+    .div1 {
+        width: 180px;
+        height: 180px;
+    }
+    /* .div1-05-bigOne {
+        width: 320px;
+        height: 160px;
+    }
+    .div1-bigOne {
+        width: 328px;
+    }
+    .div1-bigTwo {
+        width: 328px;
+        height: 328px;
+    } */
+}

@@ -1,0 +1,14 @@
+body {
+	font: 'Raleway', sans-serif;
+    color: rgba(73, 6, 6, 0.568);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	background: linear-gradient(to right, rgb(192, 89, 192) , rgb(211, 191, 216)); /* Standard syntax */
+}
+.form-control {
+    width: 20%;
+    align-items: center;
+    display: flex;
+}
