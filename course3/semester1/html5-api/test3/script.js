@@ -7,7 +7,7 @@ const filterSize = document.getElementById('filter-size');
 const filterButton = document.getElementById('filter-button');
 
 
-function connectDB(action, file=null){
+function connectDB(action, file = null) {
     let openRequest = indexedDB.open("db2", 2);
     openRequest.onupgradeneeded = (event) => {
         let db2 = event.target.result;
@@ -19,7 +19,7 @@ function connectDB(action, file=null){
         const database = event.target.result
         const transaction = database.transaction("newFiles", "readwrite");
         const newFiles = transaction.objectStore("newFiles");
-        if(action === 'write'){
+        if (action === 'write') {
             const newFile = {
                 id: new Date().getTime(),
                 file
@@ -32,7 +32,7 @@ function connectDB(action, file=null){
             request.onerror = function () {
                 console.log("Ошибка, файл не добавлен в хранилище", request.error);
             };
-        } else if(action === 'getDB') {
+        } else if (action === 'getDB') {
             const request = newFiles.getAll();
             request.onsuccess = function () {
                 console.log("Все файлы", request.result);
@@ -101,7 +101,7 @@ function updateFileList(filesFromDB) {
         ${filesFromDB.map(fileFromDB => {
         return `<li>
             <p>Имя файла: ${fileFromDB.file.name}, Тип файла: ${fileFromDB.file.type}, Размер файла: ${fileFromDB.file.size} байт</p>
-            <a href="${URL.createObjectURL(new Blob([fileFromDB.file], {type: 'application/octet-stream'}))}" download>download</a>
+            <a href="${URL.createObjectURL(new Blob([fileFromDB.file], { type: 'application/octet-stream' }))}" download>download</a>
 
         </li>`
     })
